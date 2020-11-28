@@ -1,0 +1,128 @@
+/*
+logo color: #2196f3;
+.info-links > .link:hover,
+.info-links > .link:focus {
+font-family: Roboto 
+color #757575; цветт текста адрес и тест h3
+color: #212121; основной цвет текста H2
+color: #ffffff; адрес
+color: rgba(255, 255, 255, 0.6);
+logo*/
+/*!:root * {
+    --primary-text-color:#212121 ;
+    --accent-color: black */
+/*
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*header*/
+.logotip {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo-black {
+  color: black;
+}
+.logo-blue {
+  color: #2196f3;
+}
+.info-links :focus,
+:hover {
+  color: #2196f3;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+}
+.adress-head li {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/*main*/
+.all-links:focus {
+  color: #2196f3;
+}
+.nav-links:hover {
+  color: #2196f3;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.white:first-child {
+  color: #ffffff;
+}
+.picture-links > li {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.grup-site p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/*footer*/
+.logotip-footer {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 1688px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo-white {
+  color: #ffffff;
+}
+.logo-blue {
+  color: #2196f3;
+}
+.color-footer {
+  background-color: #2f303a;
+}
+
+.ofice-adress p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+}
+.ofice-adress div {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
