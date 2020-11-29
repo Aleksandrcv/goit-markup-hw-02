@@ -15,12 +15,25 @@ logo*/
 body {
   font-family: "Roboto", sans-serif;
   background-color: #e5e5e5;
+
+  text-align: center; вировнять текст по центру
+box-shadow  тень текста
+  text-decoration: none;
+  font-family: roboto;
+  [атрибут ровно"=" значению]
+  list-style-type : none; убрать маркер из списка
+  .ul .li>a -применить стиль только для "а"
+  .ul .li>a + ul{}-сестринский селектор который стилизует соседа
 */
 * {
   margin: 0;
   padding: 0;
 }
 
+.head-nav {
+  text-decoration: none;
+  font-family: roboto;
+}
 /*header*/
 .logotip {
   position: absolute;
