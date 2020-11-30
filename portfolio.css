@@ -25,16 +25,40 @@ box-shadow  тень текста
   .ul .li>a -применить стиль только для "а"
   .ul .li>a + ul{}-сестринский селектор который стилизует соседа
 */
+/*
 * {
   margin: 0;
   padding: 0;
 }
-
+*/
 .head-nav {
-  text-decoration: none;
+  /*text-decoration: none;*/
   font-family: roboto;
 }
-/*header*/
+.logo-black {
+  color: black;
+}
+.logo-blue {
+  color: #2196f3;
+}
+.logotip {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+}
+
+/*header
 .logotip {
   position: absolute;
   width: 145px;
@@ -46,13 +70,8 @@ box-shadow  тень текста
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-}
-.logo-black {
-  color: black;
-}
-.logo-blue {
-  color: #2196f3;
-}
+
+
 .info-links :focus,
 :hover {
   color: #2196f3;
@@ -70,7 +89,7 @@ box-shadow  тень текста
   color: #757575;
 }
 
-/*main*/
+/*main
 .all-links:focus {
   color: #2196f3;
 }
@@ -102,7 +121,7 @@ box-shadow  тень текста
   line-height: 30px;
 }
 
-/*footer*/
+/*footer*
 .logotip-footer {
   width: 145px;
   height: 31px;
@@ -139,3 +158,4 @@ box-shadow  тень текста
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
 }
+*/
